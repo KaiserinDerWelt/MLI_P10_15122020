@@ -1,4 +1,6 @@
-[
+// eslint-disable-next-line no-unused-vars
+const db = {
+"listing":[
    {
       "id":"c67ab8a7",
       "title":"Cosy Appartement",
@@ -617,3 +619,4 @@
       ]
    }
 ]
+}
