@@ -1,11 +1,13 @@
 .welcome {
   background-color: #FFFFFF;
   line-height: 1.8;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .welcome--logo {
   width: 10rem;
@@ -16,7 +18,7 @@
   width: 50rem;
   color: #FF6060;
   text-align: justify;
-  margin: auto;
+  margin: 5px;
 }
 
 .welcome__cta-primary {
@@ -27,4 +29,10 @@
   border: none;
   border-radius: 20px;
   font-weight: 700;
+}
+
+.heroPic{
+  width: 1130px;
+  height: 225px;
+  border-radius: 25px;
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/logo.png";
+import 'bootstrap/dist/css/bootstrap.css';
 
 const Navbar = ({ sticky }) => {
 return (
-  <nav className={sticky ? "navbar navbar-sticky" : "navbar"}>
+  <nav className="navbar navbar-sticky">
     <div className="navbar--logo-holder">
-      {sticky ? <img src={Logo} alt="logo" className="navbar--logo" /> : null}
+      <img src={Logo} alt="logo" className="navbar--logo" />
     </div>
     <ul className="navbar--link">
       <li className="navbar--link-item">Home</li>
