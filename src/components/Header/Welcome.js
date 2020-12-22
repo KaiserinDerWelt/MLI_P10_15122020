@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import './Welcome.css'
-import About from './About'
+import Offer from './PropertyOffer'
 
 const Welcome = ({element}) => {
     return (
@@ -11,12 +11,9 @@ const Welcome = ({element}) => {
                         <p className='textOverlay'>Home, anywhere and everywhere</p>
                     </div>
                     </div>
-                <About />
-                <About />
-                <About />
+                <Offer/>
             </main>
     )
 }
-
 
 export default Welcome
