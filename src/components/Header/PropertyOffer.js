@@ -225,17 +225,7 @@ const Offer = () => {
           </div>
         </div>
       </div> 
-
-         <div className="card cardRental">
-        <img src="" className="card-img-top" alt="" />
-        <div className="card-body cardStyle">
-          <div className="row">
-            <div className="col">
-                <h3 className="titleRental" alt="rentalOffer"/>hello
-            </div>
-          </div>
-        </div>
-      </div>      
+    
      </div>
     </div>     
     )
