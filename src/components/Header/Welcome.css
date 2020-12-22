@@ -1,14 +1,13 @@
 .welcome {
-  background-color: #FFFFFF;
+  background-color: pink;
   line-height: 1.8;
-  height: 90vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
 }
+
 .welcome--logo {
   width: 10rem;
 }
@@ -31,8 +30,12 @@
   font-weight: 700;
 }
 
-.heroPic{
-  width: 1130px;
-  height: 225px;
+.pictureArea{
+  background-color: rebeccapurple;
+  background-image: url('/src/assets/images/hero.png');
+  background-repeat: round;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 223px;
   border-radius: 25px;
 }

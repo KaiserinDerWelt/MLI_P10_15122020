@@ -23,7 +23,7 @@
 }
 
 .navbar--logo {
-  width: 120px;
+  width: 110px;
   height: 40px;
   margin-right: 0.5rem;
 }
@@ -43,13 +43,13 @@
 
 .textOverlay{
   position: absolute;
-  top: 45%;
+  top: 34%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-weight: 500;
   font-style:normal;
-  font-size: 38px;
+  font-size: 30px;
   text-align: center;
   text-shadow: 1px 1px #000000;
 }
