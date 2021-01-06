@@ -7,7 +7,8 @@ function useSticky () {
   const handleScroll = () => {
     window.scrollY > element.current.getBoundingClientRect().bottom
     ? setSticky(true)
-    : setSticky(false);
+    : setSticky(true);
+
   }
 
     // This function handle the scroll performance issue

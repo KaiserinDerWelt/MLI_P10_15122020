@@ -1,16 +1,10 @@
-.offer{
-    background-color: #FFFFFF;
-}
-
 .containerProperties{
-    background-color: royalblue;
-    height: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-    border-radius: 25px;
+    background-color: #FFFFFF;
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 /*Cards */
 
@@ -19,9 +13,10 @@
     border-bottom-left-radius:10px ;
 }
 
-.cardRental{
-    width: 340px;
-    height: 340px;
+
+
+.cardRecipe{
+    width: 359px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -33,5 +28,5 @@
     
 }
 .card-body{
-    background-color: red;
+    background-color: #E7E7E7;
 }

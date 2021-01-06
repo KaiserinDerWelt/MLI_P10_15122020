@@ -1,7 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import './Welcome.css'
-import Offer from './PropertyOffer'
 
 const Welcome = ({element}) => {
     return (
@@ -11,7 +10,6 @@ const Welcome = ({element}) => {
                         <p className='textOverlay'>Home, anywhere and everywhere</p>
                     </div>
                     </div>
-                <Offer/>
             </main>
     )
 }

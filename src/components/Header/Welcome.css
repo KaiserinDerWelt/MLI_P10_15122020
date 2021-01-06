@@ -31,7 +31,6 @@
 }
 
 .pictureArea{
-  background-color: rebeccapurple;
   background-image: url('/src/assets/images/hero.png');
   background-repeat: round;
   margin-left: 0px;
