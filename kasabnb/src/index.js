@@ -1,30 +1,32 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'; // Librería react-dom 
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'; // Librería react-router-dom
 import './index.css';
-//import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-// Call components of the website
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Error from './components/error/Error';
-import Services from './components/services/Services';
-// Set up the websites routes
+
+// Pages
+import Home from './componentes/home/Home'; 
+import About from './componentes/about/About';
+import Servicios from './componentes/servicios/Servicios';
+
+//Routes for the webpage
 ReactDOM.render(
-  <Router>
-    <div>
-      <Switch>
-        {/*Rutas*/}
-        <Route exact path='/' component={Home}/>
-        <Route path='/about' component={About}/>
-      </Switch>
-    </div>
-  </Router>, //, afer Router is always required
+    <Router>
+	    <div>
+	    	<Switch>
+
+		        {/* Pages + Add error 404 */}
+		        <Route exact path='/' component={Home} />
+		        <Route path='/about' component={About} />
+	      	</Switch>
+	    </div>
+    </Router>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
