@@ -9,6 +9,7 @@ class About extends React.Component{
 			<Menu />
 			<main role="main" className="flex-shrink-0 mt-5">
 			<h1> More Content Goes Here</h1>
+			{/*Aqui exporto el otro componenente de foto*/}
 	  		</main>
 	  		<Footer />
 	  		</>
