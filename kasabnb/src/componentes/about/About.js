@@ -1,12 +1,10 @@
 import React from 'react';
-
 import Menu from '../menu/Menu';
 import Jumbotron from './jumbotron/Jumbotron';
-import Detalles from './detalles/Detalles';
 import Footer from '../footer/Footer';
 
 
-class Nosotros extends React.Component {
+class About extends React.Component {
 
 	render() {
 
@@ -31,4 +29,4 @@ class Nosotros extends React.Component {
 
 }
 
-export default Nosotros;
+export default About;
