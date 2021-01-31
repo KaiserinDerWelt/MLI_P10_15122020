@@ -2,7 +2,7 @@ import React from 'react';
 
 import Menu from '../menu/Menu';
 import Slider from './slider/Slider';
-import Servicios from './servicios/Servicios';
+import Servicios from './services/Services';
 import Footer from '../footer/Footer';
 
 
@@ -21,14 +21,9 @@ class Home extends React.Component {
 		        <div className="container">
 		  	  		
 		  	  		<Slider />
-		  	  		<Servicios />
-
-		  	  		<hr className="featurette-divider" />
-
+					<Servicios />
 		        </div>
-
 	  		</main>
-
 	  		<Footer />
 
 	  		</>
