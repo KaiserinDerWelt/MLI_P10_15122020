@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // Pages
 import Home from './componentes/home/Home'; 
 import About from './componentes/about/About';
-import Servicios from './componentes/servicios/Servicios';
+//import Servicios from './componentes/services/Services';
 
 //Routes for the webpage
 ReactDOM.render(
