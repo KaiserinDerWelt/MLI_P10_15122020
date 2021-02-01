@@ -17,7 +17,7 @@ class Servicios extends React.Component {
 				      <div className="row">
 				        <div className="col-md-4">
 				          <div className="card mb-4 shadow-sm">
-				            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Property 1"></svg>
+				            <img className="bd-placeholder-img card-img-top" width="100%" height="225" src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Property 1"/>
 				            <div className="card-body">
 				              <p className="card-text">Accomodation</p>
 							  <p className="card-text-title">Title</p>

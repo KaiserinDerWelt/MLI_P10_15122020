@@ -12,7 +12,7 @@ class Slider extends React.Component {
 		    </ol>
 		    <div className="carousel-inner">
 		        <div className="carousel-item active">
-		            <img className="img-fluid" src="#" />
+		            <img className="img-fluid" src="assets/img/background.png" alt="background-kasa"/>
 		        </div>
 		    </div>
 		</div>

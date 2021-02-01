@@ -2,7 +2,7 @@ import React from 'react';
 
 import Menu from '../menu/Menu';
 import Slider from './slider/Slider';
-import Servicios from './services/Services';
+import Services from './services/Services';
 import Footer from '../footer/Footer';
 
 
@@ -19,9 +19,8 @@ class Home extends React.Component {
 			<main role="main" className="flex-shrink-0 mt-5">
 
 		        <div className="container">
-		  	  		
 		  	  		<Slider />
-					<Servicios />
+					<Services />
 		        </div>
 	  		</main>
 	  		<Footer />

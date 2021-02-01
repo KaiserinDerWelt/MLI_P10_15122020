@@ -88,3 +88,26 @@ body {
   }
   
 }
+/* Styling my app*/
+.Logo{
+  width: 120px;
+  height: auto;
+}
+.nav-link{
+  font-size: 24px;
+  font-style: normal;
+  line-height: 34.22px;
+  text-align: right;
+  color: #FF6060 !important;
+}
+
+.img-fluid{
+  border-radius: 25px;
+  height: 223px !important;
+  mix-blend-mode: darken;
+}
+
+.carousel-item{
+  height: 223px;
+  background-color: floralwhite
+}
