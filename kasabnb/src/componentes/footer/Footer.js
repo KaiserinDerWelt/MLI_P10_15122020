@@ -1,5 +1,4 @@
 import React from 'react';
-//import './Slider.css';
 
 class Footer extends React.Component {
 
@@ -7,9 +6,11 @@ class Footer extends React.Component {
 
     return (
 
-        <footer className="container">
-            <p className="float-right"><a href="#" rel="noopener noreferrer">Subir</a></p>
-            <p>&copy; {(new Date().getFullYear())} Kasa. All rights reserved. &middot;</p>
+        <footer className="container footerBranding">
+          <div className="logoFooter">
+          <img src="assets/img/logoFooter.png" alt="logo-kasa-footer"/>
+          </div>
+            <p className="impressum">&copy; {(new Date().getFullYear())} Kasa. All rights reserved. &middot;</p>
         </footer>
 
     )

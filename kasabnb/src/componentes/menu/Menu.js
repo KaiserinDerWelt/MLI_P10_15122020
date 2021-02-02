@@ -7,7 +7,6 @@ class Menu extends React.Component {
   render() {
 //<img className="img-fluid" src="assets/img/background.png" alt="background-kasa"/>
   	return (
-
   		<nav className="navbar navbar-expand-md navbar-dark fixed-top bg-light">
 
 		    <NavLink to="/" className="navbar-brand">
@@ -17,8 +16,7 @@ class Menu extends React.Component {
 		     	<span className="navbar-toggler-icon"></span>
 		    </button>
 		    <div className="collapse navbar-collapse" id="navbarCollapse">
-			    <ul className="navbar-nav mr-auto">
-
+			    <ul className="navbar-nav ml-auto">
 			        <li className="nav-item">
 						{/** Nav Link it works to  point the paths to the router*/}
 			          	<NavLink to="/" className="nav-link">Home </NavLink>
