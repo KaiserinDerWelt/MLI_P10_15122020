@@ -24,13 +24,7 @@ body {
   margin-top: 50px;
 }
 
-#slider > a.carousel-control-next > span.carousel-control-next-icon, #slider > a.carousel-control-prev > span.carousel-control-prev-icon {
-  margin-top: -100px;
-}
 
-.featurette-divider {
-  margin: 5rem 0; 
-}
 
 .featurette-heading {
   font-weight: 300;
@@ -39,7 +33,7 @@ body {
 }
 
 
-/* RESPONSIVE CSS */
+/* Responsive CSS */
 
 @media (min-width: 300px) { 
 
@@ -89,12 +83,13 @@ body {
   
 }
 /* Styling my app*/
+/* Home Page*/
+
 .Logo{
   width: 120px;
   height: auto;
   margin-left: 88px;
 }
-
 
 .nav-link{
   font-size: 24px;
@@ -102,6 +97,10 @@ body {
   line-height: 34.22px;
   text-align: right;
   color: #FF6060 !important;
+}
+
+.nav-link:active{
+  text-decoration: underline !important;
 }
 
 .navAlignItems{
@@ -113,6 +112,7 @@ body {
 .navbar-nav{
   margin-right: 88px;
 }
+
 
 .img-fluid{
   border-radius: 25px;
@@ -183,4 +183,10 @@ footer p {
   font-weight: 500;
   line-height: 24.22px;
   color: #FFFFFF;
+}
+
+/*About Page*/
+
+.aboutContainer{
+  background-color: blue;
 }
