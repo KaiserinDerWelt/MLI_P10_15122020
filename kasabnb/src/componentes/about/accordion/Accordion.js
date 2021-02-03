@@ -28,7 +28,7 @@ class Accordion extends React.Component{
   <div className="card">
     <div className="card-header" id="headingTwo">
       <h5 className="mb-0">
-        <button className="btn btn-link collapsed textToggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button className="btn btn-header-link collapsed textToggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Respect
         </button>
       </h5>

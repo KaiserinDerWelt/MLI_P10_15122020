@@ -229,3 +229,16 @@ footer p {
   text-decoration: none !important;
   color: #FF6060 !important;
 }
+
+
+.card .card-header .btn-header-link:after {
+  content: "\f107";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+}
+
+
+.card .card-header .btn-header-link.collapsed:after {
+  content: "\f106";
+}
