@@ -20,7 +20,7 @@ class Accordion extends React.Component{
       </h5>
     </div>
 
-    <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
       <div className="card-body textToggleDescription">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
     </div>
@@ -28,7 +28,7 @@ class Accordion extends React.Component{
   <div className="card">
     <div className="card-header" id="headingTwo">
       <h5 className="mb-0">
-        <button className="btn btn-header-link collapsed textToggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button className="btn btn-link collapsed textToggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Respect
         </button>
       </h5>
@@ -60,7 +60,7 @@ class Accordion extends React.Component{
       </h5>
     </div>
 
-    <div id="collapseFour" className="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+    <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div className="card-body textToggleDescription">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."      </div>
     </div>

@@ -231,7 +231,7 @@ footer p {
 }
 
 
-.card .card-header .btn-header-link:after {
+.card .card-header .btn-link:after {
   content: "\f107";
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
@@ -239,6 +239,46 @@ footer p {
 }
 
 
-.card .card-header .btn-header-link.collapsed:after {
+.card .card-header .btn-link.collapsed:after {
   content: "\f106";
 }
+ /*Error Page*/
+
+ .errorPage{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 288px !important;
+  text-align:center;
+  line-height: 410.69px;
+  color: #FF6060;
+ }
+
+ .errorDescription{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px !important;
+  text-align:center;
+  line-height: 51.34px;
+  color: #FF6060;
+ }
+
+ .returnHomeLink{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px !important;
+  text-align:center;
+  line-height: 25.67px;
+  color: #FF6060;
+ }
