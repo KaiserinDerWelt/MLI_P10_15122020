@@ -1,4 +1,5 @@
 import React from 'react';
+//import {NavLink} from "react-router-dom";
 import Menu from '../../menu/Menu';
 
 class Servicios extends React.Component {
@@ -24,6 +25,8 @@ class Servicios extends React.Component {
 				        <div className="col-md-4">
 				          <div className="card mb-4 shadow-sm">
 				            <img className="bd-placeholder-img card-img-top" width="100%" height="225" src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Property 1"/>
+							  {/*Check router for property items
+							<NavLink to="/" className="nav-link bottonLeftTittle">Hello</NavLink>*/}
 				          </div>
 						  <div className="bottonLeftTittle">Sample</div>
 				        </div>
