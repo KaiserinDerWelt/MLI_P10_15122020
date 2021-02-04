@@ -9,6 +9,7 @@ import 'bootstrap';
 // Pages
 import Home from './componentes/home/Home'; 
 import About from './componentes/about/About';
+import Error from './componentes/error/Error';
 
 //Routes for the webpage
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
 		        {/* Pages + Add error 404 */}
 		        <Route exact path='/' component={Home} />
 		        <Route path='/about' component={About} />
+				<Route component={Error} />
 	      	</Switch>
 	    </div>
     </Router>,
