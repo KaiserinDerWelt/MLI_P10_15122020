@@ -135,8 +135,8 @@ body {
 }
 
 .welcomeTitle{
-  position: absolute;
-  top: 50%;
+  position: inherit;
+  margin-top: 97px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FFFFFF;
