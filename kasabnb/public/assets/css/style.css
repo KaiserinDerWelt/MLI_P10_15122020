@@ -99,6 +99,15 @@ body {
   color: #FF6060 !important;
 }
 
+.nav-link-property{
+  font-size: 24px;
+  font-style: normal;
+  line-height: 34.22px;
+  text-align: right;
+  color: #FF6060 !important;
+  padding: 0px !important;
+}
+
 .nav-link:active{
   text-decoration: underline !important;
 }
@@ -150,6 +159,7 @@ body {
   font-size: 18px;
   text-align: left;
   line-height: 25.67px;
+  display: -webkit-box;
 }
 
 footer {
