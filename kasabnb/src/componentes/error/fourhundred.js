@@ -1,7 +1,7 @@
 import React from 'react';
-import Menu from '../menu/Menu';
+//import Menu from '../menu/Menu';
 import Error from '../error/Error';
-import Footer from '../footer/Footer';
+//import Footer from '../footer/Footer';
 
 class FourHundred extends React.Component {
 
@@ -15,7 +15,7 @@ class FourHundred extends React.Component {
 			<Error/>
 		        </div>
 	  		</main>
-	  		<Footer />
+	  		{/*<Footer />*/}
 	  		</>
 		)
 

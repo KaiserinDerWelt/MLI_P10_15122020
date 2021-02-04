@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import Footer from '../footer/Footer';
+import Menu from '../menu/Menu';
+//import Footer from '../footer/Footer';
 
 class Error extends React.Component {
 
@@ -9,6 +10,7 @@ class Error extends React.Component {
 		return(
 			<>
              {/*Component structure goes here*/}
+			 <Menu />
 			<main role="main" className="flex-shrink-0 mt-5">
 			<div className="container">
             <div className="album py-2 bg-light">
@@ -18,7 +20,7 @@ class Error extends React.Component {
             </div>
 		        </div>
 	  		</main>
-	  		<Footer />
+			  {/*<Footer />*/}
 	  		</>
 		)
 
