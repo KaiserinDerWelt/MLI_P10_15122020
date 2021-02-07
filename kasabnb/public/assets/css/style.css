@@ -292,3 +292,29 @@ footer p {
   line-height: 25.67px;
   color: #FF6060;
  }
+
+ /*Property Page*/
+
+ .Tag{
+  background: #FF6060;
+  border-radius: 10px;
+  border-width:20px;
+  display: inline-block;
+  height: 26px;
+  width: auto;
+  line-height: 26px;
+  padding-left: 7px;
+  padding-right: 7px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  border: #FF6060;
+  border-style: solid;
+  border-width: 0.5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-top: 11px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+ }
