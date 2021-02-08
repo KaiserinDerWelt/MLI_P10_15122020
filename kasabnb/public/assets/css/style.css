@@ -209,7 +209,7 @@ footer p {
 }
 
 #accordionLight{
-  width: 100% !important;
+  width: 95% !important;
   margin-bottom: 50px;
 }
 
@@ -380,6 +380,12 @@ footer p {
    height:60px;
    border-radius: 50%;
    margin-top: -8px!important;
+ }
+
+ .col-6{
+  padding-right: 3px !important;
+   padding-left: 3px !important;
+  
  }
 
  .floatContainerDescription{
