@@ -10,8 +10,8 @@ class SliderProperty extends React.Component {
 		    <ol className="carousel-indicators">
 		    </ol>
 		    <div className="carousel-inner">
-		        <div className="carousel-item active">
-		            <img className="img-fluid propertyFluid" src="#" alt="background-property-one"/>
+		        <div className="carousel-item active host">
+		            <img className="img-fluid-host " src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg" alt="background-property-one"/>
 		        </div>
 		    </div>
 		</div>
