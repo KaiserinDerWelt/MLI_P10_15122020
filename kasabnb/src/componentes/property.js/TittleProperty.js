@@ -5,6 +5,8 @@ class TittleProperty extends React.Component{
     render(){
         return(
             <>
+              <main role="main" className="flex-shrink-0 mt-5">
+		        <div className="album py-2 bg-light">
             <div className="container">
                 <div className="row">
                     <div className="col-6">
@@ -27,6 +29,9 @@ class TittleProperty extends React.Component{
                     </div>
                 </div>
             </div>
+            </div>
+	  		</main>
+            
             </>
         )
     }
