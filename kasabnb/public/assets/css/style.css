@@ -300,6 +300,25 @@ footer p {
 
  /*Property Page*/
 
+ .propertyName{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  color: #FF6060;
+  text-align: left;
+  font-size: 32px;
+
+ }
+
+ .propertyLocation{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  color: #FF6060;
+  text-align: left;
+  font-size: 18px;
+ }
+
  .Tag{
   background: #FF6060 !important;
   border-radius: 10px !important;
@@ -324,4 +343,27 @@ footer p {
   text-align: center !important;
  }
 
+ .ownerSet{
+   display: flex;
+   position: relative;
+ }
+
+ .ownerName{
+   margin-right: 10px;
+   font-family: 'Montserrat', sans-serif !important;
+   font-weight: 500 !important;
+   font-style: normal !important;
+   text-align: right !important;
+   font-size: 18px !important;
+ }
  
+ .ownerPicture{
+   margin-left: 5px;
+   width: 60px;
+   height:60px;
+ }
+
+ .accordionProperty{
+  width: 100% !important;
+  margin-bottom: 50px !important;
+}

@@ -32,15 +32,15 @@ class DescriptionPropertyAccordion extends React.Component{
                         <div className="accordionEquipment accordionContainerSmall">
                         <div id="accordion">
                     <div className="card">
-    <div className="card-header" id="headingOne">
+    <div className="card-header" id="headingTwo">
       <h5 className="mb-0">
-        <button className="btn btn-link collapsed textToggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button className="btn btn-link collapsed textToggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
          Equipment
         </button>
       </h5>
     </div>
 
-    <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div className="card-body textToggleDescription">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
     </div>
