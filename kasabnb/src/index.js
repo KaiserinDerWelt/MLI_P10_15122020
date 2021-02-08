@@ -18,12 +18,11 @@ ReactDOM.render(
 	    <div>
 	    	<Switch>
 
-		        {/* Pages + Add error 404 */}
+		        {/* Pages + error 404 */}
 		        <Route exact path='/' component={Home} />
 		        <Route path='/about' component={About} />
 				<Route path='/property' component={PropertyPage} />
 				<Route component={Error} />
-
 	      	</Switch>
 	    </div>
     </Router>,
