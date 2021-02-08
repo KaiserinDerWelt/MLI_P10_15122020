@@ -10,6 +10,7 @@ import 'bootstrap';
 import Home from './componentes/home/Home'; 
 import About from './componentes/about/About';
 import Error from './componentes/error/Error';
+import PropertyPage from './componentes/property/PropertyPage';
 
 //Routes for the webpage
 ReactDOM.render(
@@ -20,7 +21,9 @@ ReactDOM.render(
 		        {/* Pages + Add error 404 */}
 		        <Route exact path='/' component={Home} />
 		        <Route path='/about' component={About} />
+				<Route path='/property' component={PropertyPage} />
 				<Route component={Error} />
+
 	      	</Switch>
 	    </div>
     </Router>,
