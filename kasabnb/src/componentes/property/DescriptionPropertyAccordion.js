@@ -11,11 +11,11 @@ class DescriptionPropertyAccordion extends React.Component{
                     <div className="col-6">
                     <div className="accordionDescription accordionContainerSmall">
                     <div id="accordion">
-                    <div className="card">
+                    <div className="card cardLight">
     <div className="card-header" id="headingOne">
       <h5 className="mb-0">
         <button className="btn btn-link collapsed textToggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-         Reliability
+         Description
         </button>
       </h5>
     </div>
@@ -35,7 +35,7 @@ class DescriptionPropertyAccordion extends React.Component{
     <div className="card-header" id="headingOne">
       <h5 className="mb-0">
         <button className="btn btn-link collapsed textToggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-         Reliability
+         Equipment
         </button>
       </h5>
     </div>

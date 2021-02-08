@@ -212,6 +212,11 @@ footer p {
   box-shadow:none !important;
 }
 
+.btn {
+  width: 100% !important;
+  background-color: #FF6060 !important;
+  text-align: left !important;
+}
 .card-header{
   background-color: #FF6060 !important;
   border-radius: 5px;
@@ -318,3 +323,5 @@ footer p {
   font-style: normal;
   text-align: center;
  }
+
+ 
