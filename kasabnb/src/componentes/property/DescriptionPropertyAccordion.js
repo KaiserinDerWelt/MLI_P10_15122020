@@ -10,7 +10,7 @@ class DescriptionPropertyAccordion extends React.Component{
                 <div className="row">
                     <div className="col-6">
                     <div className="accordionDescription accordionContainerSmall">
-                    <div id="accordionSingle">
+                    <div id="accordion">
                     <div className="card">
     <div className="card-header" id="headingOne">
       <h5 className="mb-0">
@@ -30,8 +30,8 @@ class DescriptionPropertyAccordion extends React.Component{
                     </div>
                     <div className="col-6">
                         <div className="accordionEquipment accordionContainerSmall">
-                        <div id="accordionSingle">
-                        <div className="card">
+                        <div id="accordion">
+                    <div className="card">
     <div className="card-header" id="headingOne">
       <h5 className="mb-0">
         <button className="btn btn-link collapsed textToggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -45,7 +45,7 @@ class DescriptionPropertyAccordion extends React.Component{
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
     </div>
   </div>
-                       </div>
+                    </div>
                         </div>
                     </div>
                 </div>
