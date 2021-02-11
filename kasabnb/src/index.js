@@ -21,7 +21,7 @@ ReactDOM.render(
 		        {/* Pages + error 404 */}
 		        <Route exact path='/' component={Home} />
 		        <Route path='/about' component={About} />
-				<Route path='/property' component={PropertyPage} />
+				<Route path="/property/:propertyId" component={PropertyPage} />
 				<Route component={Error} />
 	      	</Switch>
 	    </div>

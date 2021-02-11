@@ -151,8 +151,8 @@ body {
 
 .bottonLeftTittle{
   position: absolute;
-  bottom: 35px;
-  left: 20px;
+  bottom: 2px;
+  left: 15px;
   color: #FFFFFF;
   text-shadow: 2px 2px #000000 ;
   font-family: 'Montserrat', sans-serif;
@@ -161,6 +161,7 @@ body {
   text-align: left;
   line-height: 25.67px;
   display: -webkit-box;
+  background-color: rgba(0,0,0,.4);
 }
 
 footer {
