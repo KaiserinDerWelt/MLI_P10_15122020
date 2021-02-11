@@ -1,5 +1,4 @@
-const db = {
-	"hostDisplay":[
+var json = {"photographers": [
 		{
 			"id": "c67ab8a7",
 			"title": "Cosy Appartement",
@@ -617,8 +616,13 @@ const db = {
 				"Rivoli"
 			]
 		}
-	]
-}
+	]};
+
+    var p = document.getElementsByTagName('p');
+    var photographers = json.photographers;
+    for(var i = 0; i < photographers.length; i++) {    
+      p[i].innerHTML = photographers[i].title;
+    }  
+  
 
 
-var 
