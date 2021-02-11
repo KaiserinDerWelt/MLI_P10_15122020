@@ -16,8 +16,8 @@ class Servicios extends React.Component {
 		return (
 			<>
 				<Menu />
-				<main role="main" className="flex-shrink-0 mt-5">
-					<div className="album py-5 bg-light">
+				<main role="main" className="flex-shrink-0 mt-4">
+					<div className="album bg-light">
 						<div className="container">
 							<div className="row">
 								{this.state.items.map((item) => (
