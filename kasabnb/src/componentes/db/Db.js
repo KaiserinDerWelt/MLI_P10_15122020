@@ -252,7 +252,7 @@ var db = {
 			},
 			rating: "4",
 			location: "Paris - 14th Arrondissement",
-			equipments: [
+			Amenities: [
 				"Air Conditioning",
 				"Washing Machine",
 				"Hair Dryer",
@@ -281,7 +281,7 @@ var db = {
 			},
 			rating: "3",
 			location: "Paris - 11th Arrondissement",
-			equipments: [
+			Amenities: [
 				"Park View",
 				"Heating",
 				"Dryer",
@@ -316,7 +316,7 @@ var db = {
 			},
 			rating: "4",
 			location: "Ile de France - Paris 11e",
-			equipments: ["Fold-out Couch", "Oven", "Hair Dryer", "Wifi"],
+			Amenities: ["Fold-out Couch", "Oven", "Hair Dryer", "Wifi"],
 			tags: ["Marais", "Studio", "ParK"],
 		},
 		{
@@ -339,7 +339,7 @@ var db = {
 			},
 			rating: "3",
 			location: "Paris - 3rd Arrondissement",
-			equipments: [
+			Amenities: [
 				"Storage",
 				"Bed",
 				"Hair Dryer",
@@ -376,7 +376,7 @@ var db = {
 			},
 			rating: "5",
 			location: "Ecouen",
-			equipments: [
+			Amenities: [
 				"Bathroom",
 				"Equiped Kitchen",
 				"Dry Toilet",
@@ -406,7 +406,7 @@ var db = {
 			},
 			rating: "4",
 			location: "Arnouville",
-			equipments: [
+			Amenities: [
 				"Bathroom",
 				"Equiped kitchen",
 				"Fridge",
