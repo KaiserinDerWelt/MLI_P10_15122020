@@ -1,4 +1,4 @@
-var json = {"photographers": [
+var json = {"items": [
 		{
 			"id": "c67ab8a7",
 			"title": "Cosy Appartement",
@@ -617,12 +617,5 @@ var json = {"photographers": [
 			]
 		}
 	]};
-
-    var p = document.getElementsByTagName('p');
-    var photographers = json.photographers;
-    for(var i = 0; i < photographers.length; i++) {    
-      p[i].innerHTML = photographers[i].title;
-    }  
-  
 
 
