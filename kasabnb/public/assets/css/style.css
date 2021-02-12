@@ -527,11 +527,21 @@ footer p {
   width: initial;
 }
   
-/*line 373 in responsive version is flex-direction column
- and .card width: max-content*/
+.ownerSet {
+  flex-direction: column !important;
+}
+
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 100%!important;
+  margin-bottom: -50px !important;
+}
+
+.floatContainerDescription{
+  flex-direction: column !important;
 
 }
 
-*{
-  outline: 2px solid red;
- }
+}
+
